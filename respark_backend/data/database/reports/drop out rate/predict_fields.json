@@ -1,0 +1,22 @@
+[
+    {
+        "field_name": "gender",
+        "description": "The gender of the students, indicating male or female."
+    },
+    {
+        "field_name": "graduation_rate",
+        "description": "The percentage of students who graduated on time within a specified demographic or subgroup."
+    },
+    {
+        "field_name": "dropout_rate",
+        "description": "The percentage of students who left school without completing their education within a specified demographic or subgroup."
+    },
+    {
+        "field_name": "subgroup",
+        "description": "Demographic or socioeconomic subgroup including race, disability status, income level, foster care status, homelessness, etc."
+    },
+    {
+        "field_name": "year",
+        "description": "The year for which the graduation and dropout data is reported, specifically 2021 in this analysis."
+    }
+]

@@ -1,0 +1,159 @@
+{
+    "name": "Crime Data from 2020 to 2023 in LA.csv",
+    "file_name": "Crime Data from 2020 to 2023 in LA.csv",
+    "dataset_description": "The dataset 'Crime Data from 2020 to 2023 in LA.csv' is a log of crime reports in Los Angeles spanning a period from January 1st, 2020 to December 31st, 2023. Each row in the dataset represents a unique crime event, detailing when it was reported (Date Rptd) and actually occurred (Date Occ), the time of occurrence (Time Occ), where it happened (Area Name), the type of crime (Crm Type), information about the victim such as age (Vict Age) and sex (Vict Sex), the current status of the case (Status Desc), and precise location coordinates (LAT for latitude and LON for longitude). There are 21 distinct areas where crimes have been logged, 43 different crime types recorded, and a range of victim ages and sexes captured. Location coordinates are given as numbers with latitude ranging up to 34.3343 and longitude down to -118.6676.",
+    "fields": [
+        {
+            "column": "Date Rptd",
+            "properties": {
+                "dtype": "date",
+                "min": "2020-01-01",
+                "max": "2023-12-31",
+                "samples": [
+                    "2020-01-10",
+                    "2021-01-18",
+                    "2023-10-12"
+                ],
+                "num_unique_values": 1461,
+                "description": "Reported date of the crime"
+            }
+        },
+        {
+            "column": "Date Occ",
+            "properties": {
+                "dtype": "date",
+                "min": "2020-01-01",
+                "max": "2023-12-31",
+                "samples": [
+                    "2022-10-31",
+                    "2023-02-12",
+                    "2021-02-16"
+                ],
+                "num_unique_values": 1461,
+                "description": "Actual date when the crime occurred"
+            }
+        },
+        {
+            "column": "Time Occ",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1020,
+                    1456,
+                    209
+                ],
+                "num_unique_values": 1439,
+                "description": "Time of day when the crime occurred"
+            }
+        },
+        {
+            "column": "Area Name",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "Wilshire",
+                    "N Hollywood",
+                    "77th Street"
+                ],
+                "num_unique_values": 21,
+                "description": "Name of the area where crime happened"
+            }
+        },
+        {
+            "column": "Crm Type",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "HOMICIDE",
+                    "VIOLATION OF COURT ORDER",
+                    "CONTEMPT OF COURT"
+                ],
+                "num_unique_values": 43,
+                "description": "Category/type of the crime committed"
+            }
+        },
+        {
+            "column": "Vict Age",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    9,
+                    11,
+                    54
+                ],
+                "num_unique_values": 104,
+                "description": "Age of the victim(s) involved"
+            }
+        },
+        {
+            "column": "Vict Sex",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "X",
+                    "-",
+                    "F"
+                ],
+                "num_unique_values": 5,
+                "description": "Sex of the victim(s) involved"
+            }
+        },
+        {
+            "column": "Status Desc",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "Adult Arrest",
+                    "Invest Cont",
+                    "UNK"
+                ],
+                "num_unique_values": 6,
+                "description": "Status description of the case"
+            }
+        },
+        {
+            "column": "LAT",
+            "properties": {
+                "dtype": "number",
+                "std": 1.7383916506247528,
+                "min": 0.0,
+                "max": 34.3343,
+                "samples": [
+                    34.0592,
+                    33.9449,
+                    34.3182
+                ],
+                "num_unique_values": 5410,
+                "description": "Latitude coordinate of crime location"
+            }
+        },
+        {
+            "column": "LON",
+            "properties": {
+                "dtype": "number",
+                "std": 6.026875683652293,
+                "min": -118.6676,
+                "max": 0.0,
+                "samples": [
+                    -118.3514,
+                    -118.3438,
+                    -118.5271
+                ],
+                "num_unique_values": 4971,
+                "description": "Longitude coordinate of crime location"
+            }
+        }
+    ],
+    "field_names": [
+        "Date Rptd",
+        "Date Occ",
+        "Time Occ",
+        "Area Name",
+        "Crm Type",
+        "Vict Age",
+        "Vict Sex",
+        "Status Desc",
+        "LAT",
+        "LON"
+    ]
+}

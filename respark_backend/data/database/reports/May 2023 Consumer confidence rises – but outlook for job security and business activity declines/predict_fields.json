@@ -1,0 +1,42 @@
+[
+    {
+        "field_name": "date",
+        "description": "The specific month and year for which the data is collected (e.g., May 2023)."
+    },
+    {
+        "field_name": "consumer_confidence_index",
+        "description": "The overall consumer confidence index value, indicating the level of confidence consumers have in the economy."
+    },
+    {
+        "field_name": "household_finances_past_30_days",
+        "description": "A metric indicating how consumers perceive their household finances over the past 30 days."
+    },
+    {
+        "field_name": "household_finances_outlook",
+        "description": "A metric indicating consumer expectations for their household finances over the next 12 months."
+    },
+    {
+        "field_name": "house_price_past_30_days",
+        "description": "A metric indicating how consumers perceive house prices over the past 30 days."
+    },
+    {
+        "field_name": "house_price_outlook",
+        "description": "A metric indicating consumer expectations for house prices over the next 12 months."
+    },
+    {
+        "field_name": "job_security_past_30_days",
+        "description": "A metric indicating consumers' perceptions of job security over the past 30 days."
+    },
+    {
+        "field_name": "job_security_outlook",
+        "description": "A metric indicating consumer expectations for job security over the next 12 months."
+    },
+    {
+        "field_name": "business_activity_past_30_days",
+        "description": "A metric reflecting consumers' perceptions of business activity over the past 30 days."
+    },
+    {
+        "field_name": "business_activity_outlook",
+        "description": "A metric indicating consumer expectations for business activity over the next 12 months."
+    }
+]

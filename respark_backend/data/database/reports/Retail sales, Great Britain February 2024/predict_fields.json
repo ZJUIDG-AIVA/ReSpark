@@ -1,0 +1,42 @@
+[
+    {
+        "field_name": "month",
+        "description": "The specific month and year for the reported sales data, e.g., February 2024."
+    },
+    {
+        "field_name": "sales_value",
+        "description": "The monetary amount spent in retail sales during the specified period."
+    },
+    {
+        "field_name": "sales_volume",
+        "description": "The quantity of goods sold in retail stores during the specified period."
+    },
+    {
+        "field_name": "sector",
+        "description": "The specific category of retail, such as non-food stores, food stores, and automotive fuel."
+    },
+    {
+        "field_name": "monthly_change_percentage",
+        "description": "The percentage change in sales values or volumes compared to the previous month."
+    },
+    {
+        "field_name": "yearly_change_percentage",
+        "description": "The percentage change in sales values or volumes compared to the same month in the previous year."
+    },
+    {
+        "field_name": "online_sales_value",
+        "description": "The monetary amount spent on online retail purchases during the specified period."
+    },
+    {
+        "field_name": "online_sales_proportion",
+        "description": "The percentage of total sales that were made online during the specified period."
+    },
+    {
+        "field_name": "weather_condition",
+        "description": "The weather conditions reported for the specified period, which may affect retail footfall and sales."
+    },
+    {
+        "field_name": "fuel_price_change",
+        "description": "Information on changes in automotive fuel prices affecting sales volumes."
+    }
+]

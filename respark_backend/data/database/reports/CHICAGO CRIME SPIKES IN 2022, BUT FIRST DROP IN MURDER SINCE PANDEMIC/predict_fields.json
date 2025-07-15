@@ -1,0 +1,54 @@
+[
+    {
+        "field_name": "year",
+        "description": "The year in which the crime data was recorded."
+    },
+    {
+        "field_name": "total_crime",
+        "description": "The total number of crimes recorded in Chicago for that year."
+    },
+    {
+        "field_name": "theft",
+        "description": "The number of theft incidents, including car thefts, recorded each year."
+    },
+    {
+        "field_name": "motor_vehicle_theft",
+        "description": "The number of motor vehicle theft incidents recorded each year."
+    },
+    {
+        "field_name": "criminal_sexual_assault",
+        "description": "The number of criminal sexual assault cases recorded each year."
+    },
+    {
+        "field_name": "robbery",
+        "description": "The number of robbery incidents recorded each year."
+    },
+    {
+        "field_name": "aggravated_battery",
+        "description": "The number of aggravated battery incidents recorded each year."
+    },
+    {
+        "field_name": "burglary",
+        "description": "The number of burglary incidents recorded each year."
+    },
+    {
+        "field_name": "murder",
+        "description": "The number of murder incidents recorded each year."
+    },
+    {
+        "field_name": "homicides",
+        "description": "The number of homicides recorded each year in Chicago."
+    },
+    {
+        "field_name": "percentage_change_total_crime",
+        "description": "The year-over-year percentage change in total crime incidents."
+    },
+    {
+        "field_name": "percentage_change_theft",
+        "description": "The year-over-year percentage change in theft incidents."
+    },
+    {
+        "field_name": "percentage_change_homicides",
+        "description": "The percentage change in homicides over different years."
+    }
+]

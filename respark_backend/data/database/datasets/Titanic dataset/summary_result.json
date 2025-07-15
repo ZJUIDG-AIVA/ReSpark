@@ -1,0 +1,172 @@
+{
+    "name": "Titanic dataset.csv",
+    "file_name": "Titanic dataset.csv",
+    "dataset_description": "The Titanic dataset provides information on the passengers of the ill-fated RMS Titanic, covering their demographics, ticket details, and survival status. Each row represents a unique passenger with fields detailing their personal characteristics, ticket information, and travel accommodations. The dataset is pivotal in studying survival patterns, understanding the impact of personal and socio-economic factors, and training machine learning models for predictive tasks in survival analysis.",
+    "fields": [
+        {
+            "column": "PassengerId",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    710,
+                    440,
+                    841
+                ],
+                "num_unique_values": 891,
+                "description": "Unique identifier for a passenger."
+            }
+        },
+        {
+            "column": "Survived",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    0
+                ],
+                "num_unique_values": 2,
+                "description": "Indicates if the passenger survived (1) or not (0)."
+            }
+        },
+        {
+            "column": "Pclass",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    3,
+                    1
+                ],
+                "num_unique_values": 3,
+                "description": "Passenger's travel class (1, 2, or 3)."
+            }
+        },
+        {
+            "column": "Name",
+            "properties": {
+                "dtype": "string",
+                "samples": [
+                    "Moubarek, Master. Halim Gonios (\"William George\")",
+                    "Kvillner, Mr. Johan Henrik Johannesson"
+                ],
+                "num_unique_values": 891,
+                "description": "Full name of the passenger."
+            }
+        },
+        {
+            "column": "Sex",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "female",
+                    "male"
+                ],
+                "num_unique_values": 2,
+                "description": "Gender of the passenger."
+            }
+        },
+        {
+            "column": "Age",
+            "properties": {
+                "dtype": "number",
+                "std": 14.526497332334042,
+                "min": 0.42,
+                "max": 80.0,
+                "samples": [
+                    0.75,
+                    22.0
+                ],
+                "num_unique_values": 88,
+                "description": "Age of the passenger in years."
+            }
+        },
+        {
+            "column": "SibSp",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    0
+                ],
+                "num_unique_values": 7,
+                "description": "Number of siblings/spouses aboard."
+            }
+        },
+        {
+            "column": "Parch",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    0,
+                    1
+                ],
+                "num_unique_values": 7,
+                "description": "Number of parents/children aboard."
+            }
+        },
+        {
+            "column": "Ticket",
+            "properties": {
+                "dtype": "string",
+                "samples": [
+                    "11774",
+                    "248740"
+                ],
+                "num_unique_values": 681,
+                "description": "Ticket number of the passenger."
+            }
+        },
+        {
+            "column": "Fare",
+            "properties": {
+                "dtype": "number",
+                "std": 49.6934285971809,
+                "min": 0.0,
+                "max": 512.3292,
+                "samples": [
+                    11.2417,
+                    51.8625
+                ],
+                "num_unique_values": 248,
+                "description": "Ticket fare the passenger paid."
+            }
+        },
+        {
+            "column": "Cabin",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "D45",
+                    "B49"
+                ],
+                "num_unique_values": 147,
+                "description": "Cabin number assigned to the passenger."
+            }
+        },
+        {
+            "column": "Embarked",
+            "properties": {
+                "dtype": "category",
+                "samples": [
+                    "S",
+                    "C"
+                ],
+                "num_unique_values": 3,
+                "description": "Port of embarkation (C, Q, S)."
+            }
+        }
+    ],
+    "field_names": [
+        "PassengerId",
+        "Survived",
+        "Pclass",
+        "Name",
+        "Sex",
+        "Age",
+        "SibSp",
+        "Parch",
+        "Ticket",
+        "Fare",
+        "Cabin",
+        "Embarked"
+    ]
+}

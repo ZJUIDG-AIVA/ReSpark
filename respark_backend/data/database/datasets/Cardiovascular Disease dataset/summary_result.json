@@ -1,0 +1,183 @@
+{
+    "name": "Cardiovascular Disease dataset.csv",
+    "file_name": "Cardiovascular Disease dataset.csv",
+    "dataset_description": "The dataset 'Cardiovascular Disease dataset.csv' contains medical information for 70,000 individuals, each represented by a row. Each entry includes personal and clinical data such as age, gender, height, weight, blood pressure, cholesterol and glucose levels, and lifestyle factors. It aims to predict or analyze the presence of cardiovascular disease using these attributes.",
+    "fields": [
+        {
+            "column": "id",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    66728,
+                    69098,
+                    59185
+                ],
+                "num_unique_values": 70000,
+                "description": "Unique identifier for each record."
+            }
+        },
+        {
+            "column": "age",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    17317,
+                    21437,
+                    17627
+                ],
+                "num_unique_values": 8076,
+                "description": "Age of the person in days."
+            }
+        },
+        {
+            "column": "gender",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    2
+                ],
+                "num_unique_values": 2,
+                "description": "Gender of the person (1: Female, 2: Male)."
+            }
+        },
+        {
+            "column": "height",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    125,
+                    181
+                ],
+                "num_unique_values": 109,
+                "description": "Height of the person in cm."
+            }
+        },
+        {
+            "column": "weight",
+            "properties": {
+                "dtype": "number",
+                "std": 14.39575667851138,
+                "min": 10.0,
+                "max": 200.0,
+                "samples": [
+                    68.0,
+                    88.5
+                ],
+                "num_unique_values": 287,
+                "description": "Weight of the person in kg."
+            }
+        },
+        {
+            "column": "ap_hi",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    11500,
+                    17
+                ],
+                "num_unique_values": 153,
+                "description": "Systolic blood pressure reading."
+            }
+        },
+        {
+            "column": "ap_lo",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    810,
+                    8044
+                ],
+                "num_unique_values": 157,
+                "description": "Diastolic blood pressure reading."
+            }
+        },
+        {
+            "column": "cholesterol",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    3
+                ],
+                "num_unique_values": 3,
+                "description": "Cholesterol level (1: Normal, 2: Above normal, 3: Well above normal)."
+            }
+        },
+        {
+            "column": "gluc",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    2
+                ],
+                "num_unique_values": 3,
+                "description": "Glucose level (1: Normal, 2: Above normal, 3: Well above normal)."
+            }
+        },
+        {
+            "column": "smoke",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    0
+                ],
+                "num_unique_values": 2,
+                "description": "Smoking status (1: Smokes, 0: Does not smoke)."
+            }
+        },
+        {
+            "column": "alco",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    0
+                ],
+                "num_unique_values": 2,
+                "description": "Alcohol intake status (1: Consumes alcohol, 0: Does not consume alcohol)."
+            }
+        },
+        {
+            "column": "active",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    0,
+                    1
+                ],
+                "num_unique_values": 2,
+                "description": "Physical activity status (1: Active, 0: Not active)."
+            }
+        },
+        {
+            "column": "cardio",
+            "properties": {
+                "dtype": "int64",
+                "samples": [
+                    1,
+                    0
+                ],
+                "num_unique_values": 2,
+                "description": "Presence of cardiovascular disease (1: Disease, 0: No disease)."
+            }
+        }
+    ],
+    "field_names": [
+        "id",
+        "age",
+        "gender",
+        "height",
+        "weight",
+        "ap_hi",
+        "ap_lo",
+        "cholesterol",
+        "gluc",
+        "smoke",
+        "alco",
+        "active",
+        "cardio"
+    ]
+}

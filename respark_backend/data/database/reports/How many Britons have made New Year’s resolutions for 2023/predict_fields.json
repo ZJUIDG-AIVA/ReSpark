@@ -1,0 +1,34 @@
+[
+    {
+        "field_name": "year",
+        "description": "The year for which the New Year's resolutions were made."
+    },
+    {
+        "field_name": "age_group",
+        "description": "The age demographic of the respondents, such as 18-24 years or 55 and over."
+    },
+    {
+        "field_name": "gender",
+        "description": "The gender of the respondents, categorized as male or female."
+    },
+    {
+        "field_name": "resolution_made",
+        "description": "Whether the respondent has made a New Year's resolution."
+    },
+    {
+        "field_name": "resolution_kept",
+        "description": "Whether the respondent kept all, some, or none of their resolutions from the previous year."
+    },
+    {
+        "field_name": "resolution_type",
+        "description": "The type of resolution made, such as doing more exercise, losing weight, improving diet, saving money, or home renovation."
+    },
+    {
+        "field_name": "resolution_motivation",
+        "description": "The driving reason behind the resolution, with categories such as health improvement or financial savings."
+    },
+    {
+        "field_name": "previous_year_comparison",
+        "description": "Comparison between resolutions made in the current and previous year in relation to saving money, home renovation, etc."
+    }
+]

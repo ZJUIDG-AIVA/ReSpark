@@ -1,0 +1,42 @@
+[
+    {
+        "field_name": "year",
+        "description": "The year when the data was recorded or projected."
+    },
+    {
+        "field_name": "state",
+        "description": "The U.S. state where the data is collected or projected."
+    },
+    {
+        "field_name": "age_group",
+        "description": "The age group, particularly individuals aged 65 and over, analyzed for Alzheimer's prevalence."
+    },
+    {
+        "field_name": "gender",
+        "description": "Gender of the individuals, used to analyze differences in Alzheimer's disease prevalence."
+    },
+    {
+        "field_name": "ethnicity",
+        "description": "Ethnicity of individuals, including non-Hispanic Black, Hispanic, and White categories, to compare Alzheimer's disease prevalence."
+    },
+    {
+        "field_name": "prevalence_percentage",
+        "description": "The percentage of individuals within each demographic group diagnosed with Alzheimer's disease."
+    },
+    {
+        "field_name": "number_of_cases",
+        "description": "The number of Alzheimer’s disease cases recorded or projected among specific demographic groups."
+    },
+    {
+        "field_name": "incidence",
+        "description": "The rate at which new instances of Alzheimer's disease occur, particularly differentiated by sex."
+    },
+    {
+        "field_name": "risk_factor",
+        "description": "Factors affecting the risk of developing Alzheimer's disease, including age, gender, and ethnicity."
+    },
+    {
+        "field_name": "healthcare_system_impact",
+        "description": "The impact of Alzheimer’s disease prevalence on the healthcare systems, including costs related to long-term care and Medicaid programs."
+    }
+]
