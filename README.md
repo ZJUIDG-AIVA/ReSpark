@@ -17,8 +17,6 @@ To use and develop ReSpark, make sure your environment meets the following requi
 
 ## Project Setup
 
-As ReSpark is not yet published, you will need to run the project in development mode.
-
 Follow these steps to start the frontend:
 
 ```bash
@@ -60,5 +58,3 @@ ReSpark features a caching system that stores previously generated results, incl
 - **Select Cache**: Select an existing cache file or create a new cache file. 
 
 For an optimal experience exploring the system, we recommend using the dataset *"Crime Data from 2020 to 2023 in LA.csv"* along with the reference report *"CHICAGO CRIME SPIKES IN 2022, BUT FIRST DROP IN MURDER SINCE PANDEMIC"* and the cache file `crime_case_cache`. All of these are provided in the database of the system.
-
-For more detailed instructions, please refer to the demo video.
